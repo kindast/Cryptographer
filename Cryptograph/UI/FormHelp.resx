@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="linkVigenere.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="linkVigenere.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="linkVigenere.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linkVigenere.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 400</value>
+  </data>
+  <data name="linkVigenere.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
+  </data>
+  <data name="linkVigenere.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="linkVigenere.Text" xml:space="preserve">
+    <value>Vigenere Cipher</value>
+  </data>
+  <data name="&gt;&gt;linkVigenere.Name" xml:space="preserve">
+    <value>linkVigenere</value>
+  </data>
+  <data name="&gt;&gt;linkVigenere.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkVigenere.Parent" xml:space="preserve">
+    <value>tabIntroduction</value>
+  </data>
+  <data name="&gt;&gt;linkVigenere.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="linkCaesar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkCaesar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="linkCaesar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 384</value>
+  </data>
+  <data name="linkCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="linkCaesar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="linkCaesar.Text" xml:space="preserve">
+    <value>Caesar Cipher</value>
+  </data>
+  <data name="&gt;&gt;linkCaesar.Name" xml:space="preserve">
+    <value>linkCaesar</value>
+  </data>
+  <data name="&gt;&gt;linkCaesar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkCaesar.Parent" xml:space="preserve">
+    <value>tabIntroduction</value>
+  </data>
+  <data name="&gt;&gt;linkCaesar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOptionsDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOptionsDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lblOptionsDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOptionsDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 160</value>
+  </data>
+  <data name="lblOptionsDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>703, 221</value>
+  </data>
+  <data name="lblOptionsDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblOptionsDescription.Text" xml:space="preserve">
+    <value>For the Caesar cipher
+The shift is the number by which each letter of the text in the alphabet will be shifted. For example, in a shift cipher of 5,
+A would be changed to F, B would become G, and so on.
+
+For the Vigenère cipher
+A key is any word written in the same language as the text that is needed to encrypt the text.
+
+General
+Alphabet. In this parameter, you must select the alphabet of the language in which the text is written. If the text contains
+words from other languages, the program skips them and does not encrypt. If among the standard alphabets there is
+no one you need, then you can add them in the application settings.
+
+To learn more about how ciphers work, you can go to the following tabs or follow the links below:</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsDescription.Name" xml:space="preserve">
+    <value>lblOptionsDescription</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsDescription.Parent" xml:space="preserve">
+    <value>tabIntroduction</value>
+  </data>
+  <data name="&gt;&gt;lblOptionsDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblEncryptOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEncryptOptions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblEncryptOptions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEncryptOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 136</value>
+  </data>
+  <data name="lblEncryptOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 17</value>
+  </data>
+  <data name="lblEncryptOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblEncryptOptions.Text" xml:space="preserve">
+    <value>Encryption Options</value>
+  </data>
+  <data name="&gt;&gt;lblEncryptOptions.Name" xml:space="preserve">
+    <value>lblEncryptOptions</value>
+  </data>
+  <data name="&gt;&gt;lblEncryptOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEncryptOptions.Parent" xml:space="preserve">
+    <value>tabIntroduction</value>
+  </data>
+  <data name="&gt;&gt;lblEncryptOptions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblIntroductionText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIntroductionText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lblIntroductionText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIntroductionText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
+  </data>
+  <data name="lblIntroductionText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>623, 85</value>
+  </data>
+  <data name="lblIntroductionText.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblIntroductionText.Text" xml:space="preserve">
+    <value>With this tool you can encrypt/decrypt any text with Caesar and Vigenère ciphers. To encrypt/decrypt text:
+1. Select the tab with the desired cipher;
+2. Enter the text in the corresponding field;
+3. Set encryption/decryption parameters;
+4. Press the "Encrypt"/"Decrypt" button.</value>
+  </data>
+  <data name="&gt;&gt;lblIntroductionText.Name" xml:space="preserve">
+    <value>lblIntroductionText</value>
+  </data>
+  <data name="&gt;&gt;lblIntroductionText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIntroductionText.Parent" xml:space="preserve">
+    <value>tabIntroduction</value>
+  </data>
+  <data name="&gt;&gt;lblIntroductionText.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblIntroduction.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIntroduction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblIntroduction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIntroduction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lblIntroduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="lblIntroduction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIntroduction.Text" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="&gt;&gt;lblIntroduction.Name" xml:space="preserve">
+    <value>lblIntroduction</value>
+  </data>
+  <data name="&gt;&gt;lblIntroduction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIntroduction.Parent" xml:space="preserve">
+    <value>tabIntroduction</value>
+  </data>
+  <data name="&gt;&gt;lblIntroduction.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabIntroduction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabIntroduction.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tabIntroduction.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tabIntroduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 429</value>
+  </data>
+  <data name="tabIntroduction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabIntroduction.Text" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="&gt;&gt;tabIntroduction.Name" xml:space="preserve">
+    <value>tabIntroduction</value>
+  </data>
+  <data name="&gt;&gt;tabIntroduction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabIntroduction.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabIntroduction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCaesarExample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCaesarExample.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lblCaesarExample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCaesarExample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 304</value>
+  </data>
+  <data name="lblCaesarExample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 85</value>
+  </data>
+  <data name="lblCaesarExample.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCaesarExample.Text" xml:space="preserve">
+    <value>Caesar cipher with a shift of 3:
+A is replaced by D
+B is replaced by E
+and etc
+Z is replaced by C</value>
+  </data>
+  <data name="&gt;&gt;lblCaesarExample.Name" xml:space="preserve">
+    <value>lblCaesarExample</value>
+  </data>
+  <data name="&gt;&gt;lblCaesarExample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCaesarExample.Parent" xml:space="preserve">
+    <value>tabCaesar</value>
+  </data>
+  <data name="&gt;&gt;lblCaesarExample.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCaesar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCaesar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblCaesar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCaesar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lblCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="lblCaesar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCaesar.Text" xml:space="preserve">
+    <value>Caesar Cipher</value>
+  </data>
+  <data name="&gt;&gt;lblCaesar.Name" xml:space="preserve">
+    <value>lblCaesar</value>
+  </data>
+  <data name="&gt;&gt;lblCaesar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCaesar.Parent" xml:space="preserve">
+    <value>tabCaesar</value>
+  </data>
+  <data name="&gt;&gt;lblCaesar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCaesarDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCaesarDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lblCaesarDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCaesarDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
+  </data>
+  <data name="lblCaesarDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>702, 51</value>
+  </data>
+  <data name="lblCaesarDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCaesarDescription.Text" xml:space="preserve">
+    <value>A Caesar cipher is a type of substitution cipher in which each character in the plaintext is replaced by a character that is
+some constant number of positions to the left or right of it in the alphabet. For example, in a cipher with a right shift of
+3, A would be replaced by D, B would become D, and so on.</value>
+  </data>
+  <data name="&gt;&gt;lblCaesarDescription.Name" xml:space="preserve">
+    <value>lblCaesarDescription</value>
+  </data>
+  <data name="&gt;&gt;lblCaesarDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCaesarDescription.Parent" xml:space="preserve">
+    <value>tabCaesar</value>
+  </data>
+  <data name="&gt;&gt;lblCaesarDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pbCaesar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbCaesar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbCaesar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 120</value>
+  </data>
+  <data name="pbCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 176</value>
+  </data>
+  <data name="pbCaesar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pbCaesar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pbCaesar.Name" xml:space="preserve">
+    <value>pbCaesar</value>
+  </data>
+  <data name="&gt;&gt;pbCaesar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbCaesar.Parent" xml:space="preserve">
+    <value>tabCaesar</value>
+  </data>
+  <data name="&gt;&gt;pbCaesar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabCaesar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabCaesar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tabCaesar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tabCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 429</value>
+  </data>
+  <data name="tabCaesar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabCaesar.Text" xml:space="preserve">
+    <value>Caesar Cipher</value>
+  </data>
+  <data name="&gt;&gt;tabCaesar.Name" xml:space="preserve">
+    <value>tabCaesar</value>
+  </data>
+  <data name="&gt;&gt;tabCaesar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCaesar.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabCaesar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pbVigenere.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pbVigenere.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbVigenere.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 200</value>
+  </data>
+  <data name="pbVigenere.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 176</value>
+  </data>
+  <data name="pbVigenere.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pbVigenere.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pbVigenere.Name" xml:space="preserve">
+    <value>pbVigenere</value>
+  </data>
+  <data name="&gt;&gt;pbVigenere.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbVigenere.Parent" xml:space="preserve">
+    <value>tabVigenere</value>
+  </data>
+  <data name="&gt;&gt;pbVigenere.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblVigenere.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVigenere.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblVigenere.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVigenere.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lblVigenere.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="lblVigenere.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblVigenere.Text" xml:space="preserve">
+    <value>Vigenere Cipher</value>
+  </data>
+  <data name="&gt;&gt;lblVigenere.Name" xml:space="preserve">
+    <value>lblVigenere</value>
+  </data>
+  <data name="&gt;&gt;lblVigenere.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVigenere.Parent" xml:space="preserve">
+    <value>tabVigenere</value>
+  </data>
+  <data name="&gt;&gt;lblVigenere.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblVigenereDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVigenereDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lblVigenereDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVigenereDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
+  </data>
+  <data name="lblVigenereDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 136</value>
+  </data>
+  <data name="lblVigenereDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblVigenereDescription.Text" xml:space="preserve">
+    <value>Blaise Vigenere in the 17th century proposed a rather interesting encryption method. The cipher key is a special phrase. 
+This phrase, repeated many times, is written over the encrypted text. Each letter of the secret message is obtained by
+shifting each letter of the source text by a certain number specified by the letter of the passphrase (letter A does not
+shift, letter B shifts by one position, C shifts by two, etc.).
+
+For example, let's try to encrypt the word "SECRET" using the key phrase "ABC". The letter S does not move, the first
+letter E shifts one position, turning into an F, the letter C shifts two places, turning into a E. Continuing to encrypt the
+message, we will end up with "SFERFV".</value>
+  </data>
+  <data name="&gt;&gt;lblVigenereDescription.Name" xml:space="preserve">
+    <value>lblVigenereDescription</value>
+  </data>
+  <data name="&gt;&gt;lblVigenereDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVigenereDescription.Parent" xml:space="preserve">
+    <value>tabVigenere</value>
+  </data>
+  <data name="&gt;&gt;lblVigenereDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabVigenere.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabVigenere.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 429</value>
+  </data>
+  <data name="tabVigenere.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabVigenere.Text" xml:space="preserve">
+    <value>Vigenere Cipher</value>
+  </data>
+  <data name="&gt;&gt;tabVigenere.Name" xml:space="preserve">
+    <value>tabVigenere</value>
+  </data>
+  <data name="&gt;&gt;tabVigenere.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabVigenere.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabVigenere.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 78</value>
+  </data>
+  <data name="tabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 457</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pbBanner.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pbBanner.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbBanner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pbBanner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 80</value>
+  </data>
+  <data name="pbBanner.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pbBanner.Name" xml:space="preserve">
+    <value>pbBanner</value>
+  </data>
+  <data name="&gt;&gt;pbBanner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbBanner.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbBanner.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>740, 535</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Help and Inroduction</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormHelp</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

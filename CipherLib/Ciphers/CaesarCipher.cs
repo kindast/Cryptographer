@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
-namespace Cryptograph
+namespace CipherLib
 {
     public static class CaesarCipher
     {
         public static string Encrypt(string Text, int Shift, string Alphabet)
         {
+            if (Text == string.Empty)
+                throw new Exceptions.InputIsEmptyException();
+
             var Result = new StringBuilder();
             foreach (var letter in Text)
             {
@@ -54,6 +53,9 @@ namespace Cryptograph
 
         public static string Decrypt(string Text, int Shift, string Alphabet)
         {
+            if (Text == string.Empty)
+                throw new Exceptions.InputIsEmptyException();
+
             var Result = new StringBuilder();
             foreach (var letter in Text)
             {

@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace Cryptograph
+namespace CipherLib
 {
     public class VigenereCipher
     {
-        public static string Encrypt(string Text, string Key, string Alphabet)
+        public static string Encrypt(string Text, string Key, 
+            string Alphabet)
         {
+            if (Text == String.Empty || Key == String.Empty)
+                throw new Exceptions.InputIsEmptyException();
+
             List<int> TextValues = new List<int>();
             List<int> KeyValues = new List<int>();
             List<int> CipherValues = new List<int>();
@@ -50,6 +53,9 @@ namespace Cryptograph
                 }
             }
 
+            if (KeyValues.Count == 0)
+                throw new Exceptions.InvalidKeyException();
+
             for (int i = 0; i < TextValues.Count; i++)
             {
                 CipherValues.Add((TextValues[i] + KeyValues[i]) % Alphabet.Length);
@@ -68,7 +74,7 @@ namespace Cryptograph
             sb.Clear();
 
             j = 0;
-            bool  isLetter = false;
+            bool isLetter = false;
             bool isUpper = false;
             for (int i = 0; i < Text.Length; i++)
             {
@@ -110,6 +116,9 @@ namespace Cryptograph
 
         public static string Decrypt(string Text, string Key, string Alphabet)
         {
+            if (Text == String.Empty || Key == String.Empty)
+                throw new Exceptions.InputIsEmptyException();
+
             List<int> TextValues = new List<int>();
             List<int> KeyValues = new List<int>();
             List<int> CipherValues = new List<int>();
@@ -149,6 +158,9 @@ namespace Cryptograph
                     }
                 }
             }
+
+            if (KeyValues.Count == 0)
+                throw new Exceptions.InvalidKeyException();
 
             for (int i = 0; i < TextValues.Count; i++)
             {

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabIntroduction.Text" xml:space="preserve">
+    <value>Введение</value>
+  </data>
+  <data name="tabCaesar.Text" xml:space="preserve">
+    <value>Шифр Цезаря</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabVigenere.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabVigenere.Text" xml:space="preserve">
+    <value>Шифр Виженера</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="linkVigenere.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 400</value>
+  </data>
+  <data name="linkVigenere.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="linkVigenere.Text" xml:space="preserve">
+    <value>Шифр Виженера</value>
+  </data>
+  <data name="linkCaesar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 400</value>
+  </data>
+  <data name="linkCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="linkCaesar.Text" xml:space="preserve">
+    <value>Шифр Цезаря</value>
+  </data>
+  <data name="lblOptionsDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>703, 238</value>
+  </data>
+  <data name="lblOptionsDescription.Text" xml:space="preserve">
+    <value>Для шифра Цезаря
+Сдвиг  - это число, на которое будет сдвинута каждая буква текста в алфавите. Например, в шифре со сдвигом 5,
+А была бы заменена на Е, Б станет Ё, и так далее.
+
+Для шифра Виженера
+Ключ - это любое слово, написанное на том же языке что и текст, необходимое для шифрования текста.
+
+Общие
+Алфавит. В этом параметре необходимо выбрать алфавит языка на котором написан текст. В случае если в тексте
+присутствуют слова из других языков, то программа пропускает их и не шифрует. Если среди стандартных алфави-
+тов отсутствует необходимый вам, то в настройках приложения можно их добавить.
+
+Для того чтобы узнать о работе шифров больше можно перейти на следующие вкладки или перейти по следую-
+щим ссылкам:</value>
+  </data>
+  <data name="lblEncryptOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 17</value>
+  </data>
+  <data name="lblEncryptOptions.Text" xml:space="preserve">
+    <value>Параметры шифрования</value>
+  </data>
+  <data name="lblIntroductionText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 32</value>
+  </data>
+  <data name="lblIntroductionText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 102</value>
+  </data>
+  <data name="lblIntroductionText.Text" xml:space="preserve">
+    <value>С помощью этого инструмента вы можете зашифровать/дешифровать любой текст шифрами Цезаря и Виженера.
+Для шифрования/дешифрования текста необходимо:
+1. Выбрать вкладку с нужным шифром; 
+2. Вписать текст в соответсвующее поле;
+3. Выставить параметры шифрования/дешифрования;
+4. Нажать кнопку "Зашифровать/Дешифровать".</value>
+  </data>
+  <data name="lblIntroduction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 8</value>
+  </data>
+  <data name="lblIntroduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="lblIntroduction.Text" xml:space="preserve">
+    <value>Введение</value>
+  </data>
+  <data name="lblCaesarExample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 85</value>
+  </data>
+  <data name="lblCaesarExample.Text" xml:space="preserve">
+    <value>Шифр Цезаря со сдвигом на 3:
+A заменяется на D
+B заменяется на E
+и так далее
+Z заменяется на C</value>
+  </data>
+  <data name="lblCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lblCaesar.Text" xml:space="preserve">
+    <value>Шифр Цезаря</value>
+  </data>
+  <data name="lblCaesarDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 51</value>
+  </data>
+  <data name="lblCaesarDescription.Text" xml:space="preserve">
+    <value>Шифр Цезаря — это вид шифра подстановки, в котором каждый символ в открытом тексте заменяется символом,
+находящимся на некотором постоянном числе позиций левее или правее него в алфавите. Например, в шифре со
+сдвигом вправо на 3, А была бы заменена на Г, Б станет Д, и так далее.</value>
+  </data>
+  <data name="lblVigenere.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="lblVigenere.Text" xml:space="preserve">
+    <value>Шифр Виженера</value>
+  </data>
+  <data name="lblVigenereDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 136</value>
+  </data>
+  <data name="lblVigenereDescription.Text" xml:space="preserve">
+    <value>Блезом Вижинером в 17 веке был предложен довольно интересный метод шифрования. Ключом шифра служит
+специальная фраза. Эта фраза, многократно повторяясь, пишется над шифруемым текстом. Каждая буква секрет-
+ного сообщения получается сдвигом каждой буквы исходного текста на определённое число, задаваемое буквой
+ключевой фразы (Буква A не даёт сдвига, буква B — сдвиг на одну позицию, C — на две и т.д.).
+
+Например попробуем зашифровать слово «SECRET», пользуясь ключевой фразой «ABC». Буква S не сдвигается,
+первая буква E сдвигается на одну позицию, превращаясь в F, буква C сдвигается на две позиции, превращаясь в 
+E. Продолжая шифровать сообщение, мы в итоге получим «SFERFV».</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Помощь и введение</value>
+  </data>
+</root>

@@ -117,28 +117,119 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Введение</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 15</value>
   </data>
-  <data name="tabPage2.Text" xml:space="preserve">
+  <data name="lblKey.Text" xml:space="preserve">
+    <value>Ключ</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="lblAlphabet2.Text" xml:space="preserve">
+    <value>Алфавит</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 15</value>
+  </data>
+  <data name="lblText2.Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="btnVigenereDecrypt.Text" xml:space="preserve">
+    <value>Расшифровать</value>
+  </data>
+  <data name="btnVigenereEncrypt.Text" xml:space="preserve">
+    <value>Зашифровать</value>
+  </data>
+  <data name="tabVigenere.Text" xml:space="preserve">
+    <value>Шифр Виженера</value>
+  </data>
+  <data name="tabCaesar.Text" xml:space="preserve">
     <value>Шифр Цезаря</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>677, 45</value>
+  <data name="ShiftLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>С помощью этого инструмента вы можете зашифровать любой текст. Для шифрования текста необходимо: выбрать 
-вкладку с нужным шифром, вписать текст в соответсвующее поле, выставить параметры шифрования и нажать кнопку 
-"Зашифровать".</value>
+  <data name="lblShift.Text" xml:space="preserve">
+    <value>Сдвиг</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 15</value>
+  <data name="AlphabetLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Введение</value>
+  <data name="lblAlphabet1.Text" xml:space="preserve">
+    <value>Алфавит</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Помощь и введение</value>
+  <data name="TextLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 15</value>
+  </data>
+  <data name="lblText1.Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="btnCaesarDecrypt.Text" xml:space="preserve">
+    <value>Расшифровать</value>
+  </data>
+  <data name="btnCaesarEncrypt.Text" xml:space="preserve">
+    <value>Зашифровать</value>
+  </data>
+  <data name="FileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="miFile.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="loadTextFromFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 22</value>
+  </data>
+  <data name="miLoadFile.Text" xml:space="preserve">
+    <value>Загрузить текст из файла...</value>
+  </data>
+  <data name="saveTextToFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 22</value>
+  </data>
+  <data name="miSaveFile.Text" xml:space="preserve">
+    <value>Сохранить текст в файл...</value>
+  </data>
+  <data name="ExitMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 22</value>
+  </data>
+  <data name="miExit.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="settingsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="miSettings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="AlphabetsSettingsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="miAlphabets.Text" xml:space="preserve">
+    <value>Настройки алфавитов</value>
+  </data>
+  <data name="languageSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="miLanguage.Text" xml:space="preserve">
+    <value>Языковые настройки</value>
+  </data>
+  <data name="resetSettingsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="miReset.Text" xml:space="preserve">
+    <value>Сброс настроек</value>
+  </data>
+  <data name="infoHelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="miHelp.Text" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="helpAndIntriductionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 22</value>
+  </data>
+  <data name="miHelpAndIntriduction.Text" xml:space="preserve">
+    <value>Помощь и инструкции</value>
   </data>
 </root>

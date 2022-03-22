@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Cryptograph {
+namespace Cryptograph.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Cryptograph {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Cryptograph.MyStrings", typeof(MyStrings).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Cryptograph.Properties.MyStrings", typeof(MyStrings).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,11 +61,20 @@ namespace Cryptograph {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на An alphabet with this name already exists! Try to enter a different alphabet name..
+        ///   Ищет локализованную строку, похожую на An alphabet with this name already exists. Try to enter a different alphabet name..
         /// </summary>
         internal static string AlphabetNameError {
             get {
                 return ResourceManager.GetString("AlphabetNameError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на You have not entered the text to encrypt/decrypt. Please check the entered data..
+        /// </summary>
+        internal static string CaesarInputIsEmptyException {
+            get {
+                return ResourceManager.GetString("CaesarInputIsEmptyException", resourceCulture);
             }
         }
         
@@ -75,6 +84,33 @@ namespace Cryptograph {
         internal static string FileDialogTxtFiles {
             get {
                 return ResourceManager.GetString("FileDialogTxtFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The encryption key must be written in the same language as the text. Please create a new encryption key..
+        /// </summary>
+        internal static string InvalidKeyException {
+            get {
+                return ResourceManager.GetString("InvalidKeyException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Warning.
+        /// </summary>
+        internal static string mbCaption {
+            get {
+                return ResourceManager.GetString("mbCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на You have not entered the text or key for encryption/decryption. Please check the entered data..
+        /// </summary>
+        internal static string VigenereInputIsEmptyException {
+            get {
+                return ResourceManager.GetString("VigenereInputIsEmptyException", resourceCulture);
             }
         }
     }

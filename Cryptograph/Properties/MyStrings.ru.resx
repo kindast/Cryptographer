@@ -117,119 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 15</value>
+  <data name="AlphabetNameError" xml:space="preserve">
+    <value>Алфавит с таким названием уже существует. Пожалуйста, введите другое название.</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Ключ</value>
+  <data name="CaesarInputIsEmptyException" xml:space="preserve">
+    <value>Вы не ввели текст для шифрования/дешифрования. Пожалуйста, проверьте введенные данные.</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 15</value>
+  <data name="FileDialogTxtFiles" xml:space="preserve">
+    <value>Текстовые файлы</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Алфавит</value>
+  <data name="InvalidKeyException" xml:space="preserve">
+    <value>Ключ шифрования должен быть написан на том же языке, что и текст. Пожалуйста, придумайте новый ключ шифрования.</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 15</value>
+  <data name="mbCaption" xml:space="preserve">
+    <value>Предупреждение</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Текст</value>
-  </data>
-  <data name="VigenereDecryptBtn.Text" xml:space="preserve">
-    <value>Расшифровать</value>
-  </data>
-  <data name="VigenereEncryptBtn.Text" xml:space="preserve">
-    <value>Зашифровать</value>
-  </data>
-  <data name="VigenereTab.Text" xml:space="preserve">
-    <value>Шифр Виженера</value>
-  </data>
-  <data name="CaesarTab.Text" xml:space="preserve">
-    <value>Шифр Цезаря</value>
-  </data>
-  <data name="ShiftLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 15</value>
-  </data>
-  <data name="ShiftLbl.Text" xml:space="preserve">
-    <value>Сдвиг</value>
-  </data>
-  <data name="AlphabetLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 15</value>
-  </data>
-  <data name="AlphabetLbl.Text" xml:space="preserve">
-    <value>Алфавит</value>
-  </data>
-  <data name="TextLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 15</value>
-  </data>
-  <data name="TextLbl.Text" xml:space="preserve">
-    <value>Текст</value>
-  </data>
-  <data name="CaesarDecryptBtn.Text" xml:space="preserve">
-    <value>Расшифровать</value>
-  </data>
-  <data name="CaesarEncryptBtn.Text" xml:space="preserve">
-    <value>Зашифровать</value>
-  </data>
-  <data name="FileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="FileMenuItem.Text" xml:space="preserve">
-    <value>Файл</value>
-  </data>
-  <data name="loadTextFromFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 22</value>
-  </data>
-  <data name="loadTextFromFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Загрузить текст из файла...</value>
-  </data>
-  <data name="saveTextToFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 22</value>
-  </data>
-  <data name="saveTextToFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Сохранить текст в файл...</value>
-  </data>
-  <data name="ExitMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 22</value>
-  </data>
-  <data name="ExitMenuItem.Text" xml:space="preserve">
-    <value>Выход</value>
-  </data>
-  <data name="settingsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 20</value>
-  </data>
-  <data name="settingsMenuItem.Text" xml:space="preserve">
-    <value>Настройки</value>
-  </data>
-  <data name="AlphabetsSettingsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
-  </data>
-  <data name="AlphabetsSettingsMenuItem.Text" xml:space="preserve">
-    <value>Настройки алфавитов</value>
-  </data>
-  <data name="languageSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
-  </data>
-  <data name="languageSettingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Языковые настройки</value>
-  </data>
-  <data name="resetSettingsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 22</value>
-  </data>
-  <data name="resetSettingsMenuItem.Text" xml:space="preserve">
-    <value>Сброс настроек</value>
-  </data>
-  <data name="infoHelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 20</value>
-  </data>
-  <data name="infoHelpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Помощь</value>
-  </data>
-  <data name="helpAndIntriductionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 22</value>
-  </data>
-  <data name="helpAndIntriductionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Помощь и инструкции</value>
+  <data name="VigenereInputIsEmptyException" xml:space="preserve">
+    <value>Вы не ввели текст или ключ для шифрования/дешифрования. Пожалуйста, проверьте введенные данные.</value>
   </data>
 </root>

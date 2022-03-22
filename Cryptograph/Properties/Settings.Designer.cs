@@ -37,13 +37,25 @@ namespace Cryptograph.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int Launches {
+        [global::System.Configuration.DefaultSettingValueAttribute("360")]
+        public int Width {
             get {
-                return ((int)(this["Launches"]));
+                return ((int)(this["Width"]));
             }
             set {
-                this["Launches"] = value;
+                this["Width"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("450")]
+        public int Height {
+            get {
+                return ((int)(this["Height"]));
+            }
+            set {
+                this["Height"] = value;
             }
         }
     }

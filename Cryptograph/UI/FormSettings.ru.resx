@@ -117,10 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AlphabetNameError" xml:space="preserve">
-    <value>An alphabet with this name already exists! Try to enter a different alphabet name.</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="NameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 15</value>
   </data>
-  <data name="FileDialogTxtFiles" xml:space="preserve">
-    <value>txt files</value>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="AlphabetsLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="lblAlphabets.Text" xml:space="preserve">
+    <value>Алфавиты</value>
+  </data>
+  <data name="LettersLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 15</value>
+  </data>
+  <data name="lblLetters.Text" xml:space="preserve">
+    <value>Буквы</value>
+  </data>
+  <data name="btnSaveAlphabets.Text" xml:space="preserve">
+    <value>Сохранить алфавиты</value>
+  </data>
+  <data name="tabAlphabet.Text" xml:space="preserve">
+    <value>Алфавиты</value>
+  </data>
+  <data name="LanguageLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 15</value>
+  </data>
+  <data name="lblLanguage.Text" xml:space="preserve">
+    <value>Языковые параметры</value>
+  </data>
+  <data name="btnSaveLanguage.Text" xml:space="preserve">
+    <value>Сохранить язык</value>
+  </data>
+  <data name="tabLanguage.Text" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Параметры</value>
   </data>
 </root>

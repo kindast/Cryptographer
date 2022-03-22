@@ -47,6 +47,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -61,59 +65,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alphabet.cs" />
-    <Compile Include="Base64Coder.cs" />
-    <Compile Include="CaesarCipher.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Classes\Alphabet.cs" />
+    <Compile Include="UI\FormStart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UI\FormStart.Designer.cs">
+      <DependentUpon>FormStart.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="UI\FormSettings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="UI\FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="UI\FormHelp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="UI\FormHelp.Designer.cs">
+      <DependentUpon>FormHelp.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyStrings.ru.Designer.cs">
+    <Compile Include="Properties\MyStrings.ru.Designer.cs">
       <DependentUpon>MyStrings.ru.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MyStrings.Designer.cs">
+    <Compile Include="Properties\MyStrings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>MyStrings.resx</DependentUpon>
     </Compile>
-    <Compile Include="VigenereCipher.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="UI\FormStart.resx">
+      <DependentUpon>FormStart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.ru.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="UI\FormStart.ru.resx">
+      <DependentUpon>FormStart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="UI\FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.ru.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="UI\FormSettings.ru.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="UI\FormHelp.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.ru.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="UI\FormHelp.ru.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyStrings.ru.resx">
+    <EmbeddedResource Include="Properties\MyStrings.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>MyStrings.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -127,7 +128,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="MyStrings.resx">
+    <EmbeddedResource Include="Properties\MyStrings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>MyStrings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -158,6 +159,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Caesar.png" />
+    <Content Include="Resources\Logo.ico" />
+    <Content Include="Resources\Vigenere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CipherLib\Cipher.BL.csproj">
+      <Project>{1d7ba008-4917-4c49-a7df-2a10f6f3028c}</Project>
+      <Name>Cipher.BL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,9 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AlphabetNameError" xml:space="preserve">
-    <value>Алфавит с таким названием уже существует! Попробуйте ввести другое название.</value>
+    <value>An alphabet with this name already exists. Try to enter a different alphabet name.</value>
+  </data>
+  <data name="CaesarInputIsEmptyException" xml:space="preserve">
+    <value>You have not entered the text to encrypt/decrypt. Please check the entered data.</value>
   </data>
   <data name="FileDialogTxtFiles" xml:space="preserve">
-    <value>Текстовые файлы</value>
+    <value>txt files</value>
+  </data>
+  <data name="InvalidKeyException" xml:space="preserve">
+    <value>The encryption key must be written in the same language as the text. Please create a new encryption key.</value>
+  </data>
+  <data name="mbCaption" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="VigenereInputIsEmptyException" xml:space="preserve">
+    <value>You have not entered the text or key for encryption/decryption. Please check the entered data.</value>
   </data>
 </root>
