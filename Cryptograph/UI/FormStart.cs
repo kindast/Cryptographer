@@ -58,7 +58,7 @@ namespace Cryptograph
                     int Shift = Convert.ToInt32(cbShift.Text);
                     try
                     {
-                        tbCaesar.Text = CaesarCipher.Encrypt(tbCaesar.Text, Shift, alphabet.Letters);
+                        tbCaesar.Text = CaesarCipher.EnDecrypt(tbCaesar.Text, Shift, alphabet.Letters, false);
                     }
                     catch (CipherLib.Exceptions.InputIsEmptyException)
                     {
@@ -81,7 +81,7 @@ namespace Cryptograph
                     int Shift = Convert.ToInt32(cbShift.Text);
                     try
                     {
-                        tbCaesar.Text = CaesarCipher.Decrypt(tbCaesar.Text, Shift, alphabet.Letters);
+                        tbCaesar.Text = CaesarCipher.EnDecrypt(tbCaesar.Text, Shift, alphabet.Letters, true);
                     }
                     catch (CipherLib.Exceptions.InputIsEmptyException)
                     {
@@ -103,7 +103,7 @@ namespace Cryptograph
                 {
                     try
                     {
-                        tbVigenere.Text = VigenereCipher.Encrypt(tbVigenere.Text, tbKey.Text, alphabet.Letters);
+                        tbVigenere.Text = VigenereCipher.EnDecrypt(tbVigenere.Text, tbKey.Text, alphabet.Letters, false);
                     }
                     catch (CipherLib.Exceptions.InputIsEmptyException)
                     {
@@ -132,7 +132,7 @@ namespace Cryptograph
                 {
                     try
                     {
-                        tbVigenere.Text = VigenereCipher.Decrypt(tbVigenere.Text, tbKey.Text, alphabet.Letters);
+                        tbVigenere.Text = VigenereCipher.EnDecrypt(tbVigenere.Text, tbKey.Text, alphabet.Letters, true);
                     }
                     catch (CipherLib.Exceptions.InputIsEmptyException)
                     {
