@@ -166,7 +166,7 @@
     <Content Include="Resources\Vigenere.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CipherLib\Cipher.BL.csproj">
+    <ProjectReference Include="..\Cipher.BL\Cipher.BL.csproj">
       <Project>{1d7ba008-4917-4c49-a7df-2a10f6f3028c}</Project>
       <Name>Cipher.BL</Name>
     </ProjectReference>

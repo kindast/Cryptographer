@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptographer", "Cryptograph\Cryptographer.csproj", "{521FAA51-CDC2-463D-8749-88DE3B3F8979}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cipher.BL", "CipherLib\Cipher.BL.csproj", "{1D7BA008-4917-4C49-A7DF-2A10F6F3028C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{2D1DB867-A948-421F-90C4-A0655C4D5949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cipher.BL", "Cipher.BL\Cipher.BL.csproj", "{1D7BA008-4917-4C49-A7DF-2A10F6F3028C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptographer", "Cryptographer\Cryptographer.csproj", "{521FAA51-CDC2-463D-8749-88DE3B3F8979}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{521FAA51-CDC2-463D-8749-88DE3B3F8979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{521FAA51-CDC2-463D-8749-88DE3B3F8979}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{521FAA51-CDC2-463D-8749-88DE3B3F8979}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{521FAA51-CDC2-463D-8749-88DE3B3F8979}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D7BA008-4917-4C49-A7DF-2A10F6F3028C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D7BA008-4917-4C49-A7DF-2A10F6F3028C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D7BA008-4917-4C49-A7DF-2A10F6F3028C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D7BA008-4917-4C49-A7DF-2A10F6F3028C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521FAA51-CDC2-463D-8749-88DE3B3F8979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521FAA51-CDC2-463D-8749-88DE3B3F8979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521FAA51-CDC2-463D-8749-88DE3B3F8979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521FAA51-CDC2-463D-8749-88DE3B3F8979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
