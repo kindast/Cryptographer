@@ -81,18 +81,8 @@ namespace Cryptograph
             if (lvAlphabets.SelectedItems[0].Index == 0)
                 return;
 
-            Alphabet alphabet = (Alphabet)lvAlphabets.SelectedItems[0].Tag;
-            string name = lvAlphabets.SelectedItems[0].Text;
             int index = lvAlphabets.SelectedItems[0].Index - 1;
-
-            lvAlphabets.SelectedItems[0].Text = lvAlphabets.Items[index].Text;
-            lvAlphabets.SelectedItems[0].Tag = lvAlphabets.Items[index].Tag;
-
-            lvAlphabets.Items[index].Text = name;
-            lvAlphabets.Items[index].Tag = alphabet;
-
-            lvAlphabets.Items[index].Selected = true;
-            lvAlphabets.Items[index].Focused = true;
+            SwapElements(index);
         }
 
         private void LetDownElement(object sender, EventArgs e)
@@ -103,9 +93,14 @@ namespace Cryptograph
             if (lvAlphabets.SelectedItems[0].Index == lvAlphabets.Items.Count - 1)
                 return;
 
+            int index = lvAlphabets.SelectedItems[0].Index + 1;
+            SwapElements(index);
+        }
+
+        private void SwapElements(int index)
+        {
             Alphabet alphabet = (Alphabet)lvAlphabets.SelectedItems[0].Tag;
             string name = lvAlphabets.SelectedItems[0].Text;
-            int index = lvAlphabets.SelectedItems[0].Index + 1;
 
             lvAlphabets.SelectedItems[0].Text = lvAlphabets.Items[index].Text;
             lvAlphabets.SelectedItems[0].Tag = lvAlphabets.Items[index].Tag;

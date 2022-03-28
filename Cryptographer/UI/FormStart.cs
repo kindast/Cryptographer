@@ -171,8 +171,6 @@ namespace Cryptograph
 
             Properties.Settings.Default.Save();
 
-
-
             Alphabets alphabets = new Alphabets(new List<Alphabet>());
 
             Alphabet english = new Alphabet("English", "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
@@ -191,7 +189,6 @@ namespace Cryptograph
 
             if (sender != null) 
                 Application.Restart();
-
         }
 
         private void LoadTextFromFile(object sender, EventArgs e)
@@ -210,7 +207,6 @@ namespace Cryptograph
                     tbCaesar.Text = FileContent;
                 else
                     tbVigenere.Text = FileContent;
-
             }
         }
 
