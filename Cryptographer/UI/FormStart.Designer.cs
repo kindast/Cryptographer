@@ -118,7 +118,7 @@
             this.btnVigenereDecrypt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVigenereDecrypt.Name = "btnVigenereDecrypt";
             this.btnVigenereDecrypt.UseVisualStyleBackColor = true;
-            this.btnVigenereDecrypt.Click += new System.EventHandler(this.VigenereDecrypt);
+            this.btnVigenereDecrypt.Click += new System.EventHandler(this.VigenereEnDecrypt);
             // 
             // btnVigenereEncrypt
             // 
@@ -126,7 +126,7 @@
             this.btnVigenereEncrypt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVigenereEncrypt.Name = "btnVigenereEncrypt";
             this.btnVigenereEncrypt.UseVisualStyleBackColor = true;
-            this.btnVigenereEncrypt.Click += new System.EventHandler(this.VigenereCrypt);
+            this.btnVigenereEncrypt.Click += new System.EventHandler(this.VigenereEnDecrypt);
             // 
             // tabCaesar
             // 
@@ -183,7 +183,7 @@
             this.btnCaesarDecrypt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCaesarDecrypt.Name = "btnCaesarDecrypt";
             this.btnCaesarDecrypt.UseVisualStyleBackColor = true;
-            this.btnCaesarDecrypt.Click += new System.EventHandler(this.CaesarDecrypt);
+            this.btnCaesarDecrypt.Click += new System.EventHandler(this.CaesarEnDecrypt);
             // 
             // btnCaesarEncrypt
             // 
@@ -191,7 +191,7 @@
             this.btnCaesarEncrypt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCaesarEncrypt.Name = "btnCaesarEncrypt";
             this.btnCaesarEncrypt.UseVisualStyleBackColor = true;
-            this.btnCaesarEncrypt.Click += new System.EventHandler(this.CaesarEncrypt);
+            this.btnCaesarEncrypt.Click += new System.EventHandler(this.CaesarEnDecrypt);
             // 
             // tabControl
             // 

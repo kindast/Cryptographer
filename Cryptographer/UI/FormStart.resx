@@ -513,132 +513,6 @@
   <data name="&gt;&gt;btnVigenereEncrypt.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;cbShift.Name" xml:space="preserve">
-    <value>cbShift</value>
-  </data>
-  <data name="&gt;&gt;cbShift.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbShift.Parent" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;cbShift.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblShift.Name" xml:space="preserve">
-    <value>lblShift</value>
-  </data>
-  <data name="&gt;&gt;lblShift.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblShift.Parent" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;lblShift.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblAlphabet1.Name" xml:space="preserve">
-    <value>lblAlphabet1</value>
-  </data>
-  <data name="&gt;&gt;lblAlphabet1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAlphabet1.Parent" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;lblAlphabet1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblText1.Name" xml:space="preserve">
-    <value>lblText1</value>
-  </data>
-  <data name="&gt;&gt;lblText1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblText1.Parent" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;lblText1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;cbCaesarAlphabet.Name" xml:space="preserve">
-    <value>cbCaesarAlphabet</value>
-  </data>
-  <data name="&gt;&gt;cbCaesarAlphabet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbCaesarAlphabet.Parent" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;cbCaesarAlphabet.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tbCaesar.Name" xml:space="preserve">
-    <value>tbCaesar</value>
-  </data>
-  <data name="&gt;&gt;tbCaesar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbCaesar.Parent" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;tbCaesar.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnCaesarDecrypt.Name" xml:space="preserve">
-    <value>btnCaesarDecrypt</value>
-  </data>
-  <data name="&gt;&gt;btnCaesarDecrypt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCaesarDecrypt.Parent" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;btnCaesarDecrypt.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnCaesarEncrypt.Name" xml:space="preserve">
-    <value>btnCaesarEncrypt</value>
-  </data>
-  <data name="&gt;&gt;btnCaesarEncrypt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCaesarEncrypt.Parent" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;btnCaesarEncrypt.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="tabCaesar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="tabCaesar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
-  </data>
-  <data name="tabCaesar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="tabCaesar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>336, 377</value>
-  </data>
-  <data name="tabCaesar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabCaesar.Text" xml:space="preserve">
-    <value>Caesar Cipher</value>
-  </data>
-  <data name="&gt;&gt;tabCaesar.Name" xml:space="preserve">
-    <value>tabCaesar</value>
-  </data>
-  <data name="&gt;&gt;tabCaesar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabCaesar.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;tabCaesar.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="cbShift.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
@@ -906,6 +780,36 @@
   <data name="&gt;&gt;btnCaesarEncrypt.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="tabCaesar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="tabCaesar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabCaesar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tabCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 377</value>
+  </data>
+  <data name="tabCaesar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabCaesar.Text" xml:space="preserve">
+    <value>Caesar Cipher</value>
+  </data>
+  <data name="&gt;&gt;tabCaesar.Name" xml:space="preserve">
+    <value>tabCaesar</value>
+  </data>
+  <data name="&gt;&gt;tabCaesar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCaesar.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabCaesar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -939,33 +843,6 @@
   <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="miFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="miFile.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="miSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="miSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="miHelpAndIntriduction.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+F1</value>
-  </data>
-  <data name="miHelpAndIntriduction.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 22</value>
-  </data>
-  <data name="miHelpAndIntriduction.Text" xml:space="preserve">
-    <value>Help and Introduction</value>
-  </data>
-  <data name="miHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="miHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
   <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -989,6 +866,12 @@
   </data>
   <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="miFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="miFile.Text" xml:space="preserve">
+    <value>File</value>
   </data>
   <data name="miLoadFile.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+O</value>
@@ -1017,6 +900,12 @@
   <data name="miExit.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
+  <data name="miSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="miSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
   <data name="miAlphabets.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 22</value>
   </data>
@@ -1034,6 +923,21 @@
   </data>
   <data name="miReset.Text" xml:space="preserve">
     <value>Reset Settings</value>
+  </data>
+  <data name="miHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="miHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="miHelpAndIntriduction.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F1</value>
+  </data>
+  <data name="miHelpAndIntriduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="miHelpAndIntriduction.Text" xml:space="preserve">
+    <value>Help and Introduction</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2926,9 +2830,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>

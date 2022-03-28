@@ -49,8 +49,13 @@ namespace Cryptograph
             cbVigenereAlphabet.SelectedIndex = 0;
         }
 
-        private void CaesarEncrypt(object sender, EventArgs e)
+        private void CaesarEnDecrypt(object sender, EventArgs e)
         {
+            Button button = (Button)sender;
+            bool isDecrypt = false;
+            if (button.Text == btnVigenereDecrypt.Text)
+                isDecrypt = true;
+
             foreach (var alphabet in alphabets.ListOfAlphabets)
             {
                 if (alphabet.Name == cbCaesarAlphabet.Text)
@@ -58,7 +63,7 @@ namespace Cryptograph
                     int Shift = Convert.ToInt32(cbShift.Text);
                     try
                     {
-                        tbCaesar.Text = CaesarCipher.EnDecrypt(tbCaesar.Text, Shift, alphabet.Letters, false);
+                        tbCaesar.Text = CaesarCipher.EnDecrypt(tbCaesar.Text, Shift, alphabet.Letters, isDecrypt);
                     }
                     catch (CipherLib.Exceptions.InputIsEmptyException)
                     {
@@ -72,67 +77,20 @@ namespace Cryptograph
             }
         }
 
-        private void CaesarDecrypt(object sender, EventArgs e)
+        private void VigenereEnDecrypt(object sender, EventArgs e)
         {
-            foreach (var alphabet in alphabets.ListOfAlphabets)
-            {
-                if (alphabet.Name == cbCaesarAlphabet.Text)
-                {
-                    int Shift = Convert.ToInt32(cbShift.Text);
-                    try
-                    {
-                        tbCaesar.Text = CaesarCipher.EnDecrypt(tbCaesar.Text, Shift, alphabet.Letters, true);
-                    }
-                    catch (CipherLib.Exceptions.InputIsEmptyException)
-                    {
-                        MessageBox.Show(Properties.MyStrings.CaesarInputIsEmptyException,
-                            Properties.MyStrings.mbCaption,
-                            MessageBoxButtons.OK,
-                            MessageBoxIcon.Warning);
-                    }
-                    break;
-                }
-            }
-        }
+            Button button = (Button)sender;
+            bool isDecrypt = false;
+            if (button.Text == btnVigenereDecrypt.Text)
+                isDecrypt = true;
 
-        private void VigenereCrypt(object sender, EventArgs e)
-        {
             foreach (var alphabet in alphabets.ListOfAlphabets)
             {
                 if (alphabet.Name == cbVigenereAlphabet.Text)
                 {
                     try
                     {
-                        tbVigenere.Text = VigenereCipher.EnDecrypt(tbVigenere.Text, tbKey.Text, alphabet.Letters, false);
-                    }
-                    catch (CipherLib.Exceptions.InputIsEmptyException)
-                    {
-                        MessageBox.Show(Properties.MyStrings.VigenereInputIsEmptyException,
-                            Properties.MyStrings.mbCaption,
-                            MessageBoxButtons.OK,
-                            MessageBoxIcon.Warning);
-                    }
-                    catch (CipherLib.Exceptions.InvalidKeyException)
-                    {
-                        MessageBox.Show(Properties.MyStrings.InvalidKeyException,
-                            Properties.MyStrings.mbCaption,
-                            MessageBoxButtons.OK,
-                            MessageBoxIcon.Warning);
-                    }
-                    break;
-                }
-            }
-        }
-
-        private void VigenereDecrypt(object sender, EventArgs e)
-        {
-            foreach (var alphabet in alphabets.ListOfAlphabets)
-            {
-                if (alphabet.Name == cbVigenereAlphabet.Text)
-                {
-                    try
-                    {
-                        tbVigenere.Text = VigenereCipher.EnDecrypt(tbVigenere.Text, tbKey.Text, alphabet.Letters, true);
+                        tbVigenere.Text = VigenereCipher.EnDecrypt(tbVigenere.Text, tbKey.Text, alphabet.Letters, isDecrypt);
                     }
                     catch (CipherLib.Exceptions.InputIsEmptyException)
                     {
