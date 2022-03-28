@@ -4,6 +4,15 @@ namespace CipherLib
 {
     public static class CaesarCipher
     {
+        /// <summary>
+        /// Шифрует или дешифрует текст шифром Цезаря
+        /// </summary>
+        /// <param name="Text">Текст для шифрования или дешифрования.</param>
+        /// <param name="Shift">Сдвиг.</param>
+        /// <param name="Alphabet">Алфавит, на котором написан текст.</param>
+        /// <param name="isDecrypt">Если true, то дешифрует. Если false, то шифрует.</param>
+        /// <returns>Строка с зашифрованным или дешифрованным текстом.</returns>
+        /// <exception cref="Exceptions.InputIsEmptyException">Текст для шифрования или дешифрования не содержит ни одного символа.</exception>
         public static string EnDecrypt(string Text, int Shift, string Alphabet, bool isDecrypt)
         {
             if (Text == string.Empty)

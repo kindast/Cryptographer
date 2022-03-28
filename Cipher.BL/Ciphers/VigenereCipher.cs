@@ -7,6 +7,16 @@ namespace CipherLib
 {
     public class VigenereCipher
     {
+        /// <summary>
+        /// Шифрует или дешифрует текст шифром Виженера
+        /// </summary>
+        /// <param name="Text">Текст для шифрования или дешифрования.</param>
+        /// <param name="Key">Ключ для шифрования или дешифрования.</param>
+        /// <param name="Alphabet">Алфавит, на котором написан текст.</param>
+        /// <param name="isDecrypt">Если true, то дешифрует. Если false, то шифрует.</param>
+        /// <returns>Строка с зашифрованным или дешифрованным текстом.</returns>
+        /// <exception cref="Exceptions.InputIsEmptyException">Текст или ключ для шифрования или дешифрования не содержит ни одного символа.</exception>
+        /// <exception cref="Exceptions.InvalidKeyException">Ключ шифрования должен быть написан на том же языке, что и текст.</exception>
         public static string EnDecrypt(string Text, string Key, 
             string Alphabet, bool isDecrypt)
         {
@@ -81,9 +91,10 @@ namespace CipherLib
                 }
             }
 
-            string Coded = sb.ToString();
+            string Coded = sb.ToString(); //(За/Де)шифрованный текст
             sb.Clear();
 
+            //Добавляем прописную или строчную букву, пробелы и другие символы
             j = 0;
             bool isLetter = false;
             bool isUpper = false;
