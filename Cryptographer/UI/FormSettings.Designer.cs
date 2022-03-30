@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSettings));
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabAlphabet = new System.Windows.Forms.TabPage();
+            this.btnUp = new System.Windows.Forms.Button();
+            this.btnDown = new System.Windows.Forms.Button();
             this.tbName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
             this.lblAlphabets = new System.Windows.Forms.Label();
@@ -45,8 +47,6 @@
             this.rbtnRussian = new System.Windows.Forms.RadioButton();
             this.rbtnEnglish = new System.Windows.Forms.RadioButton();
             this.btnSaveLanguage = new System.Windows.Forms.Button();
-            this.btnDown = new System.Windows.Forms.Button();
-            this.btnUp = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabAlphabet.SuspendLayout();
             this.tabLanguage.SuspendLayout();
@@ -76,6 +76,20 @@
             resources.ApplyResources(this.tabAlphabet, "tabAlphabet");
             this.tabAlphabet.Name = "tabAlphabet";
             this.tabAlphabet.UseVisualStyleBackColor = true;
+            // 
+            // btnUp
+            // 
+            resources.ApplyResources(this.btnUp, "btnUp");
+            this.btnUp.Name = "btnUp";
+            this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.RaiseElement);
+            // 
+            // btnDown
+            // 
+            resources.ApplyResources(this.btnDown, "btnDown");
+            this.btnDown.Name = "btnDown";
+            this.btnDown.UseVisualStyleBackColor = true;
+            this.btnDown.Click += new System.EventHandler(this.LetDownElement);
             // 
             // tbName
             // 
@@ -173,20 +187,6 @@
             this.btnSaveLanguage.Name = "btnSaveLanguage";
             this.btnSaveLanguage.UseVisualStyleBackColor = true;
             this.btnSaveLanguage.Click += new System.EventHandler(this.SaveLanguage);
-            // 
-            // btnDown
-            // 
-            resources.ApplyResources(this.btnDown, "btnDown");
-            this.btnDown.Name = "btnDown";
-            this.btnDown.UseVisualStyleBackColor = true;
-            this.btnDown.Click += new System.EventHandler(this.LetDownElement);
-            // 
-            // btnUp
-            // 
-            resources.ApplyResources(this.btnUp, "btnUp");
-            this.btnUp.Name = "btnUp";
-            this.btnUp.UseVisualStyleBackColor = true;
-            this.btnUp.Click += new System.EventHandler(this.RaiseElement);
             // 
             // FormSettings
             // 

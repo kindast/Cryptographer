@@ -136,7 +136,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnUp.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>5</value>
   </data>
   <data name="btnUp.Text" xml:space="preserve">
     <value>↑</value>
@@ -169,7 +169,7 @@
     <value>37, 37</value>
   </data>
   <data name="btnDown.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>6</value>
   </data>
   <data name="btnDown.Text" xml:space="preserve">
     <value>↓</value>
@@ -202,7 +202,7 @@
     <value>248, 25</value>
   </data>
   <data name="tbName.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;tbName.Name" xml:space="preserve">
     <value>tbName</value>
@@ -298,7 +298,7 @@
     <value>248, 25</value>
   </data>
   <data name="tbLetters.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;tbLetters.Name" xml:space="preserve">
     <value>tbLetters</value>
@@ -358,7 +358,7 @@
     <value>176, 27</value>
   </data>
   <data name="btnSaveAlphabets.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="btnSaveAlphabets.Text" xml:space="preserve">
     <value>Save alphabets</value>
@@ -388,7 +388,7 @@
     <value>37, 37</value>
   </data>
   <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="btnDelete.Text" xml:space="preserve">
     <value>-</value>
@@ -421,7 +421,7 @@
     <value>37, 37</value>
   </data>
   <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="btnAdd.Text" xml:space="preserve">
     <value>+</value>
@@ -610,7 +610,7 @@
     <value>120, 27</value>
   </data>
   <data name="btnSaveLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="btnSaveLanguage.Text" xml:space="preserve">
     <value>Save Language</value>
@@ -637,7 +637,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="tabLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 194</value>
+    <value>381, 194</value>
   </data>
   <data name="tabLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
