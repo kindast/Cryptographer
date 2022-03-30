@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ciphers\CaesarCipher.cs" />
+    <Compile Include="Classes\Alphabet.cs" />
     <Compile Include="Exceptions\InputIsEmptyException.cs" />
     <Compile Include="Exceptions\InvalidKeyException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

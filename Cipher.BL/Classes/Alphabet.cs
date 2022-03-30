@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Cryptograph
+namespace CipherLib
 {
     [Serializable]
     public class Alphabet
@@ -11,7 +14,7 @@ namespace Cryptograph
 
         public Alphabet() { }
 
-        public Alphabet(string Name, string Letters) 
+        public Alphabet(string Name, string Letters)
         {
             this.Name = Name;
             this.Letters = Letters;
@@ -25,7 +28,7 @@ namespace Cryptograph
 
         public Alphabets() { }
 
-        public Alphabets (List<Alphabet> alphabets)
+        public Alphabets(List<Alphabet> alphabets)
         {
             this.ListOfAlphabets = alphabets;
         }
