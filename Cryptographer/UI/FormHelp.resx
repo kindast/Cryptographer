@@ -280,11 +280,11 @@ To learn more about how ciphers work, you can go to the following tabs or follow
     <value>1</value>
   </data>
   <data name="lblIntroductionText.Text" xml:space="preserve">
-    <value>With this tool you can encrypt/decrypt any text with Caesar and Vigenère ciphers. To encrypt/decrypt text:
+    <value>With this tool, you can encrypt/decrypt any text with Caesar and Vigenère ciphers. To encrypt/decrypt text:
 1. Select the tab with the desired cipher;
 2. Enter the text in the corresponding field;
 3. Set encryption/decryption parameters;
-4. Press the "Encrypt"/"Decrypt" button.</value>
+4. Press the "Encrypt/Decrypt" button.</value>
   </data>
   <data name="&gt;&gt;lblIntroductionText.Name" xml:space="preserve">
     <value>lblIntroductionText</value>
@@ -614,7 +614,7 @@ shifting each letter of the source text by a certain number specified by the let
 shift, letter B shifts by one position, C shifts by two, etc.).
 
 For example, let's try to encrypt the word "SECRET" using the key phrase "ABC". The letter S does not move, the first
-letter E shifts one position, turning into an F, the letter C shifts two places, turning into a E. Continuing to encrypt the
+letter E shifts one position, turning into an F, the letter C shifts two places, turning into an E. Continuing to encrypt the
 message, we will end up with "SFERFV".</value>
   </data>
   <data name="&gt;&gt;lblVigenereDescription.Name" xml:space="preserve">
@@ -707,9 +707,9 @@ message, we will end up with "SFERFV".</value>
   <data name="&gt;&gt;pbBanner.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
   </data>
