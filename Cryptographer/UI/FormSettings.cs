@@ -53,7 +53,10 @@ namespace Cryptograph
             {
                 if (tbName.Text == lvAlphabets.Items[i].Text)
                 {
-                    MessageBox.Show(Properties.MyStrings.AlphabetNameError);
+                    MessageBox.Show(Properties.MyStrings.AlphabetNameError, 
+                        Properties.MyStrings.mbCaption,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
                     return;
                 }
             }
