@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Logo.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -159,7 +159,6 @@
     <None Include="Resources\Banner.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Logo.ico" />
     <Content Include="Resources\Caesar.png" />
     <Content Include="Resources\Logo.ico" />
     <Content Include="Resources\Vigenere.png" />
