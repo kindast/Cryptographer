@@ -96,6 +96,7 @@
     </Compile>
     <EmbeddedResource Include="UI\FormStart.resx">
       <DependentUpon>FormStart.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FormStart.ru.resx">
       <DependentUpon>FormStart.cs</DependentUpon>
@@ -161,6 +162,9 @@
   <ItemGroup>
     <Content Include="Resources\Caesar.png" />
     <Content Include="Resources\Logo.ico" />
+    <Content Include="Resources\screenshot-alphabet.png" />
+    <Content Include="Resources\screenshot-help.png" />
+    <Content Include="Resources\screenshot-main.png" />
     <Content Include="Resources\Vigenere.png" />
   </ItemGroup>
   <ItemGroup>

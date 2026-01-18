@@ -748,7 +748,7 @@
     <value>17, 17</value>
   </metadata>
   <data name="miLoadFile.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+O</value>
+    <value>Control, O</value>
   </data>
   <data name="miLoadFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 22</value>
@@ -757,7 +757,7 @@
     <value>Load text from file...</value>
   </data>
   <data name="miSaveFile.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
+    <value>Control, S</value>
   </data>
   <data name="miSaveFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 22</value>
